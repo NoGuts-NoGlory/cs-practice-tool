@@ -18,22 +18,9 @@
         <option value="medium">Medium</option>
         <option value="hard">Hard</option>
     </select>
-    <button onclick="displayWords()">Show Words</button>
+    <button onclick="fetchWords()">Show Words</button>
     <div id="words"></div>
 </div>
-<script>
-    const words = {
-        easy: ["apple", "book", "cat"],
-        medium: ["elephant", "bicycle", "dolphin"],
-        hard: ["photosynthesis", "subterranean", "quintessential"]
-    };
-
-    function displayWords() {
-        const complexity = document.getElementById('complexity').value;
-        const wordList = words[complexity];
-        const wordsDiv = document.getElementById('words');
-        wordsDiv.innerHTML = wordList.join(', ');
-    }
-</script>
+<script src="script.js"></script>
 </body>
 </html>
