@@ -1,32 +1,31 @@
 const words = {
     easy: [
-        "apple", "book", "cat", "dog", "egg", "fish", "goat", "hat", "ice", "jam",
-        "kite", "lamp", "map", "net", "owl", "pen", "queen", "rat", "sun", "top",
-        "umbrella", "van", "wolf", "x-ray", "yarn", "zebra", "ball", "car", "duck",
-        "ear", "frog", "grape", "horse", "ink", "jug", "key", "lion", "mouse", "nest",
-        "orange", "pig", "quilt", "ring", "sock", "tiger", "umbrella", "vase", "whale",
-        "xylophone", "yo-yo", "zoo"
+        "at", "it", "up", "on", "if", "ox", "up", "ad", "id", "ax",
+        "am", "us", "as", "is", "an", "oh", "up", "in", "or", "as",
+        "it", "at", "up", "ax", "ox", "it", "ax", "on", "ox", "id",
+        "as", "at", "up", "am", "ad", "an", "ax", "id", "up", "ox",
+        "it", "ox", "at", "in", "ox", "as", "on", "us", "up", "ad"
+    ],
+    normal: [
+        "cat", "dog", "pin", "hot", "sit", "pot", "bag", "bat", "box", "fan",
+        "man", "log", "win", "van", "sun", "hat", "ham", "bed", "pig", "net",
+        "cup", "cut", "bus", "rug", "mud", "jug", "gum", "pen", "map", "top",
+        "fox", "six", "tub", "nut", "hut", "den", "ten", "wet", "leg", "pig",
+        "hop", "pop", "rug", "bug", "pat", "bat", "cab", "can", "pan", "rat"
     ],
     medium: [
-        "elephant", "bicycle", "dolphin", "giraffe", "penguin", "airplane", "balloon", "candle",
-        "diamond", "engine", "fountain", "guitar", "helicopter", "island", "jungle", "kangaroo",
-        "lighthouse", "mountain", "notebook", "ocean", "pencil", "quicksand", "rainbow", "sandcastle",
-        "telescope", "universe", "volcano", "waterfall", "xylophone", "yacht", "zeppelin",
-        "accordion", "backpack", "carousel", "dragonfly", "escalator", "fireplace", "glacier", "hamburger",
-        "igloo", "jellyfish", "kitchen", "labyrinth", "meadow", "nightingale", "octopus", "parachute",
-        "quarantine", "robot"
+        "plant", "crisp", "blend", "flint", "stomp", "stand", "bland", "clamp", "frank", "grasp",
+        "drink", "blink", "brisk", "trunk", "clink", "stamp", "plumb", "clamp", "grind", "drift",
+        "plank", "brand", "crust", "grant", "frost", "brunt", "prank", "spend", "trend", "grand",
+        "twist", "cramp", "flask", "stint", "scamp", "twist", "crank", "stump", "tramp", "glint",
+        "spend", "trust", "drank", "flint", "stint", "print", "stark", "blurt", "brisk", "clamp"
     ],
     hard: [
-        "photosynthesis", "subterranean", "quintessential", "encyclopedia", "conscientious",
-        "hypothesis", "parallelogram", "infrastructure", "jurisdiction", "psychology",
-        "archaeology", "biotechnology", "cryptocurrency", "demonstrative", "electromagnetic",
-        "flabbergasted", "gastroenterology", "hematology", "interdisciplinary", "juxtaposition",
-        "kaleidoscope", "lymphocytosis", "metamorphosis", "neurotransmitter", "ornithology",
-        "paleontology", "quantitative", "radiation", "spectroscopy", "telecommunication",
-        "uncharacteristic", "ventriloquism", "weatherization", "xenotransplantation", "youthfulness",
-        "zoonotic", "antidisestablishmentarianism", "bureaucratization", "circumnavigation",
-        "deoxyribonucleic", "ethnopharmacology", "ferromagnetism", "galvanization", "hemoglobinopathy",
-        "immunohistochemistry", "jurisprudence", "kinesiological", "laryngopharyngeal", "microspectrophotometry"
+        "breathe", "scream", "dream", "cloak", "creep", "sweet", "treat", "boast", "chief", "faint",
+        "fruit", "grain", "cheese", "groan", "streak", "swoop", "thief", "bleach", "knead", "quote",
+        "smile", "plane", "bride", "globe", "crane", "spine", "drive", "flame", "stone", "joke",
+        "inside", "basket", "kitten", "window", "hidden", "magnet", "insect", "problem", "market", "shelter",
+        "sunset", "robin", "forgot", "pencil", "silent", "demand", "remind", "moment", "pocket", "napkin"
     ]
 };
 
