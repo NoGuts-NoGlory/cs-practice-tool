@@ -6,21 +6,57 @@
     <title>Word Complexity Display</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        body { font-family: Arial, sans-serif; }
-        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: cornflowerblue;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #words {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            min-height: 100px;
+            font-size: 50px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
 <div class="container">
     <h1>Word Complexity Test</h1>
-    <label for="complexity">Choose complexity level:</label>
-    <select id="complexity">
-        <option value="easy">Easy</option>
-        <option value="normal">Normal</option>
-        <option value="medium">Medium</option>
-        <option value="hard">Hard</option>
-    </select>
-    <button onclick="fetchWords()">Show Words</button>
+    <div class="buttons">
+        <button onclick="fetchWords('easy')">Easy</button>
+        <button onclick="fetchWords('normal')">Normal</button>
+        <button onclick="fetchWords('medium')">Medium</button>
+        <button onclick="fetchWords('hard')">Hard</button>
+    </div>
     <div id="words"></div>
 </div>
 <script src="words.js"></script>

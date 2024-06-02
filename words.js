@@ -29,10 +29,19 @@ const words = {
     ]
 };
 
-function fetchWords() {
-    const complexity = document.getElementById('complexity').value;
-    const wordList = words[complexity];
+let wordInterval;
+
+function fetchWords(level) {
+    clearInterval(wordInterval);
+    const wordList = words[level];
     const shuffled = wordList.sort(() => 0.5 - Math.random());
     const selectedWords = shuffled.slice(0, 5);
-    document.getElementById('words').innerHTML = selectedWords.join(', ');
+
+    let wordIndex = 0;
+    document.getElementById('words').innerHTML = selectedWords[wordIndex];
+
+    wordInterval = setInterval(() => {
+        wordIndex = (wordIndex + 1) % selectedWords.length;
+        document.getElementById('words').innerHTML = selectedWords[wordIndex];
+    }, 3000);
 }
